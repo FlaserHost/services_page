@@ -1,22 +1,24 @@
 @media screen and (max-width: 792px) {
-    .test-demo-version {
-        padding: 20px;
-        background: #F0F3FF url("image.png") no-repeat 95% 95% / 400px;
+    .test-demo-version article {
+        background: url("image.png") no-repeat 100% 95% / 400px;
+        padding: 20px 380px 20px 20px;
     }
 }
 
 @media screen and (max-width: 690px) {
     .test-demo-version {
+        height: auto;
+    }
+
+    .test-demo-version article {
+        background: transparent;
         padding: 20px;
-        background: #F0F3FF url("image.png") no-repeat 99% 90% / 350px;
     }
 }
 
 @media screen and (max-width: 590px) {
-    .test-demo-version {
+    .test-demo-version article {
         padding: 20px;
-        background: #F0F3FF;
-        height: auto;
     }
 
     .i-want-test {
